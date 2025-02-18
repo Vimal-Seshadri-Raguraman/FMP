@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fmp-client",
+    name="FMP",
     version="1.0.0",
     description="Python client library for the Financial Modeling Prep API",
     long_description=open("README.md").read(),
