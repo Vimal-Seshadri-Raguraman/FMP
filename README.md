@@ -1,9 +1,15 @@
 # FMP Client Library
 A Python client library for the [Financial Modeling Prep (FMP) API](https://financialmodelingprep.com/). This library provides both synchronous REST API and asynchronous WebSocket support, all in a modular, easy-to-use package.
 
+The client is built to work with the [**Stable** version](https://site.financialmodelingprep.com/developer/docs/stable) of the Financial Modeling Prep (FMP) API. All endpoints are configured to use the stable base URL:
+```arduino
+https://financialmodelingprep.com/stable/
+```
+The endpoints available in this stable version are defined in the [fmp_endpoints.json](https://github.com/Vimal-Seshadri-Raguraman/FMP/blob/main/FMP/fmp_endpoints.json) file
+
 ## Features
 
-- **Unified REST API Client:**  
+- **Unified API Client:**  
   Dynamically access FMP endpoints using Pythonic method names.
 
 - **Rate-Limited HTTP Session:**  
